@@ -6,12 +6,17 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
+    />
+    <link
       href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="/css/style.css" />
   </head>
   <body>
+    <!-- PageHeader -->
     <header class="page-header">
       <img src="images/Logo.png" alt="Logo Barbershop App" />
       <nav class="header-navigation">
@@ -31,6 +36,7 @@
         </ul>
       </nav>
     </header>
+    <!-- HeroSection -->
     <main>
       <section class="hero-section">
         <h3 class="hero-sub-title-section">A hair salon for men in Kyiv</h3>
@@ -40,6 +46,7 @@
           We work quickly, carefully and with style.
         </p>
       </section>
+      <!-- About section -->
       <section class="page-section">
         <h3 class="sub-title-section">About</h3>
         <div>
@@ -62,6 +69,7 @@
           <button class="online-booking-button">ONLINE-BOOKING</button>
         </div>
       </section>
+      <!-- Services -->
       <section class="page-section">
         <h3 class="sub-title-section">Spend your time with the best masters</h3>
         <h2 class="title-section">Services and prices</h2>
@@ -79,7 +87,8 @@
         </ul>
         <button class="online-booking-button">ONLINE-BOOKING</button>
       </section>
-      <section class="page-section">
+      <!-- Portofolio Section -->
+      <section class="page-section portofolio">
         <div class="cards-left-side">
           <div class="card">
             <h3 class="card-title">600<sup class="sup">+</sup></h3>
@@ -107,7 +116,8 @@
           </p>
         </div>
       </section>
-      <section class="page-section">
+      <!-- Our barbers section -->
+      <section class="page-section our-barbers">
         <h3 class="sub-title-section">For true enjoyers of the atmosphere</h3>
         <h2 class="title-section">Our barbers</h2>
         <ul class="unstyled-list our-barbers">
@@ -128,9 +138,10 @@
           </li>
         </ul>
       </section>
-      <section class="page-section">
-        <h3>In Latin, "barba" means "beard"</h3>
-        <h2 hidden>Hair cut Action</h2>
+      <!-- Ourbarbers activities -->
+      <section class="page-section activities">
+        <h3 class="sub-title-section">In Latin, "barba" means "beard"</h3>
+        <h2 hidden class="title-section">Hair cut Action</h2>
         <ul class="unstyled-list">
           <li><img src="images/img1.png" alt="haircutAction" /></li>
           <li><img src="images/img2.png" alt="haircutAction" /></li>
@@ -138,9 +149,10 @@
           <li><img src="images/img4.png" alt="haircutAction" /></li>
         </ul>
       </section>
-      <section class="page-section">
+      <!-- Online booking -->
+      <section class="page-section online-booking">
         <div>
-          <h3>Online-booking</h3>
+          <h3 class="sub-title-section">Online-booking</h3>
           <input placeholder="Name*" />
           <input placeholder="Phone*" />
           <input placeholder="Message*" />
@@ -150,10 +162,16 @@
           <h3>Contacts</h3>
           <address>
             <ul class="unstyled-list">
-              <li><a href=""></a>st. Vasilkovaya, 7A Kiev, 08132</li>
-              <li><a href="tel:+380441111111">+38 044 111 11 11</a></li>
               <li>
-                <a href="mailto:barbershop@email.com">barbershop@email.com</a>
+                <a class="link" href=""></a>st. Vasilkovaya, 7A Kiev, 08132
+              </li>
+              <li>
+                <a class="link" href="tel:+380441111111">+38 044 111 11 11</a>
+              </li>
+              <li>
+                <a class="link" href="mailto:barbershop@email.com"
+                  >barbershop@email.com</a
+                >
               </li>
             </ul>
           </address>
@@ -162,11 +180,12 @@
         </div>
       </section>
     </main>
+    <!-- Page footer -->
     <footer>
       <p>&copy;Copyright 2020</p>
       <ul class="unstyled-list">
-        <li><a href="#"></a>Instagram</li>
-        <li><a href="#"></a>Youtube</li>
+        <li><a class="link" href="#"></a>Instagram</li>
+        <li><a class="link" href="#"></a>Youtube</li>
       </ul>
     </footer>
   </body>
