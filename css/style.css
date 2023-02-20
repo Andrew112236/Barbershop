@@ -4,6 +4,13 @@
   --background-section: gray;
 }
 
+* {
+  margin-block-start: 0px;
+  margin-block-end: 0px;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
 /* Globals */
 
 html {
@@ -29,7 +36,6 @@ html {
 
 .header-navigation,
 .page-header,
-.page-section,
 .hero-section {
   background-color: var(--background-section);
 }
@@ -54,7 +60,8 @@ html {
   align-items: center;
 }
 
-.navigation-list {
+.navigation-list,
+.header-navigation {
   flex-grow: 1;
 }
 
@@ -62,14 +69,19 @@ html {
   color: #ff6c00;
 }
 
-.about {
+.about-section-inner-container {
   display: flex;
-  gap: 30;
+  padding: 120px 100px 120px 0px;
+  gap: 30px;
 }
 
 .about .images-container {
   display: flex;
   gap: 30 px;
+}
+
+.details-container {
+  width: 470px;
 }
 
 .online-booking-button {
@@ -194,11 +206,4 @@ html {
   text-align: center;
   letter-spacing: 0.02em;
   color: #ff6c00;
-}
-
-* {
-  margin-block-start: 0px;
-  margin-block-end: 0px;
-  margin-inline-start: 0px;
-  margin-inline-end: 0px;
 }
