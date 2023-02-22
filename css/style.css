@@ -9,6 +9,7 @@
   margin-block-end: 0px;
   margin-inline-start: 0px;
   margin-inline-end: 0px;
+  padding-inline-start: 0px;
 }
 
 /* Globals */
@@ -78,6 +79,12 @@ html {
 .about .images-container {
   display: flex;
   gap: 30 px;
+}
+
+.button-container {
+  display: flex;
+  flex-grow: 1;
+  align-items: flex-end;
 }
 
 .details-container {
@@ -185,6 +192,46 @@ html {
   text-align: center;
   color: #ff6c00;
 }
+
+.our-barbers {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.our-barbers-list {
+  display: flex;
+  gap: 30px;
+}
+
+.our-barbers-list li {
+  display: flex;
+  gap: 30px;
+  flex-direction: column;
+}
+
+.barber-details {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.social-media-icons {
+  display: flex;
+  justify-content: center;
+}
+
+.social-media-icons ul {
+  display: flex;
+  gap: 10px;
+}
+
+/* uita-te in ultimele minute din curs */
+.icon-list-item {
+  display: flex;
+  width: 44px;
+}
+
 /* PortofolioSection */
 /* selector compus - parinte-copil */
 .our-barbers .image {
