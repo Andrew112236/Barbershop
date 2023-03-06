@@ -265,14 +265,15 @@
       </section>
       <!-- Online booking -->
       <section class="page-section online-booking">
-        <div>
+        <div class="left-side">
           <h3 class="sub-title-section">Online-booking</h3>
-          <input placeholder="Name*" />
-          <input placeholder="Phone*" />
-          <input placeholder="Message*" />
-          <button>Send</button>
+          <form name="online-booking" class="online-booking-form"></form>
+          <input type="text" placeholder="name*" name="name" />
+          <input type="tel" placeholder="phone*" name="phone" />
+          <textarea placeholder="message*" name="message"></textarea>
+          <button type="submit" class="send-button-form">SEND</button>
         </div>
-        <div>
+        <div class="right-side">
           <h3 class="sub-title-section">Contacts</h3>
           <address>
             <ul class="unstyled-list">
