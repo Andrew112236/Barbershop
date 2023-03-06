@@ -254,3 +254,34 @@ html {
   letter-spacing: 0.02em;
   color: #ff6c00;
 }
+
+.online-booking {
+  display: flex;
+  padding: 100px;
+  background-color: gray;
+}
+
+.online-booking .left-side,
+.online-booking .right-side {
+  flex: 1 0 50%;
+}
+
+.online-booking-form .left-side {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.online-booking-form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.online-booking-form input {
+  flex: 1 0 40%;
+}
+
+.online-booking-form textarea {
+  flex: 1 0 100%;
+}
