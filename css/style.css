@@ -133,6 +133,47 @@ html {
   color: #555555;
 }
 
+/*  BEM style */
+
+.section {
+  padding: 120px 0px;
+}
+
+.container {
+  width: 1170px;
+  margin: 0px auto;
+}
+
+.grid {
+  display: flex;
+  gap: 30px;
+}
+
+.grid__item {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.barber {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.social-media-grid {
+  display: flex;
+  gap: 10px;
+}
+
+.social-media-grid__item {
+  list-style: none;
+  display: flex;
+}
+
 /* HeroSection */
 
 .hero-sub-title-section {
